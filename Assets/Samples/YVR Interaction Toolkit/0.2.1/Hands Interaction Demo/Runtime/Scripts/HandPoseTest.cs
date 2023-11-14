@@ -18,21 +18,18 @@ public class HandPoseTest : MonoBehaviour
 
     public void OnHandPoseStart()
     {
-        Debug.Log("OnHandPoseStart");
         ClearText();
         poseResult.text =  poseName+": Start" + "\n";
     }
 
     public void OnHandPoseUpdate(float value)
     {
-        Debug.Log($"OnHandPoseUpdate value:{value}");
         ClearText();
         poseResult.text = $"{poseName}: Update value:{value}" + "\n";
     }
 
     public void OnHandPoseEnd()
     {
-        Debug.Log("OnHandPoseEnd");
         ClearText();
         poseResult.text = $"{poseName}: End" + "\n";
     }

@@ -39,7 +39,7 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_ModelPrefab
     value: 
-    objectReference: {fileID: 0}
+    objectReference: {fileID: 8270855663187062767, guid: 1392f805216c47742996d4742c80721c, type: 3}
   - target: {fileID: 0}
     propertyPath: m_ModelParent
     value: 
@@ -494,7 +494,7 @@ Preset:
     objectReference: {fileID: 71106601250685021, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
   - target: {fileID: 0}
     propertyPath: m_UIScrollAction.m_UseReference
-    value: 0
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_UIScrollAction.m_Action.m_Name
@@ -531,7 +531,7 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_UIScrollAction.m_Reference
     value: 
-    objectReference: {fileID: 0}
+    objectReference: {fileID: 6972639530819350904, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
   - target: {fileID: 0}
     propertyPath: m_HapticDeviceAction.m_UseReference
     value: 1
