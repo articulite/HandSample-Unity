@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44872898, g: 0.49756533, b: 0.5697248, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -205,101 +204,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af7d33e93857407bbd7d0bd37fc99dda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 11400000, guid: c0f62db33800b68408cc6bc28468cf6b, type: 2}
-  thumb:
-    handFinger: 0
-    flexion: 0
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 120
-        width: 10
-      curlConfigs:
-        min: 45
-        max: 90
-        width: 46
-      abductionConfigs:
-        mid: 13
-        width: 6
-  index:
-    handFinger: 1
-    flexion: 1
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 144
-        max: 180
-        width: 10
-      curlConfigs:
-        min: 107
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  middle:
-    handFinger: 2
-    flexion: 0
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  ring:
-    handFinger: 3
-    flexion: 0
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  pinky:
-    handFinger: 4
-    flexion: 1
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 144
-        max: 180
-        width: 15
-      curlConfigs:
-        min: 0
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  shapesholdDuration: 0.09
-  Bones: []
-  bonesHoldDuration: 0.022
-  trackAxis: 0
-  spaceType: 0
-  trackTarget: 2
-  angleThreshold: 50
-  thresholdWidth: 0
-  transHoldDuration: 0.022
 --- !u!114 &28079294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,17 +216,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35bed5e2884b6cb4a8f47d89e0bc7401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackType: 2
-  config: {fileID: 11400000, guid: c0f62db33800b68408cc6bc28468cf6b, type: 2}
-  handPoseStart:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseUpdate:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseEnd:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &28079295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,9 +228,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd98d7bd8401e70468231d4e719480a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poseName: Rock
-  pose: {fileID: 28079294}
-  poseResult: {fileID: 1596144204}
 --- !u!1 &37209894
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,17 +501,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35bed5e2884b6cb4a8f47d89e0bc7401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackType: 2
-  config: {fileID: 11400000, guid: 99f46bc50f2563e45976b79c9c4c1cf7, type: 2}
-  handPoseStart:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseUpdate:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseEnd:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &102588863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -634,101 +513,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af7d33e93857407bbd7d0bd37fc99dda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 11400000, guid: 99f46bc50f2563e45976b79c9c4c1cf7, type: 2}
-  thumb:
-    handFinger: 0
-    flexion: 3
-    curl: 1
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 113.02965
-        max: 155.41412
-        width: 26.9
-      curlConfigs:
-        min: 90
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 13
-        width: 28.8
-  index:
-    handFinger: 1
-    flexion: 2
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  middle:
-    handFinger: 2
-    flexion: 2
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  ring:
-    handFinger: 3
-    flexion: 2
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  pinky:
-    handFinger: 4
-    flexion: 2
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  shapesholdDuration: 0.09
-  Bones: []
-  bonesHoldDuration: 0.022
-  trackAxis: 2
-  spaceType: 0
-  trackTarget: 2
-  angleThreshold: 35
-  thresholdWidth: 0
-  transHoldDuration: 0.022
 --- !u!4 &102588864
 Transform:
   m_ObjectHideFlags: 0
@@ -756,9 +540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd98d7bd8401e70468231d4e719480a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poseName: ThumbUp
-  pose: {fileID: 102588862}
-  poseResult: {fileID: 1596144204}
 --- !u!1 &123424312
 GameObject:
   m_ObjectHideFlags: 0
@@ -4039,6 +3820,80 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0, y: 1}
+--- !u!1 &478645775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5873159440087337584, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+  m_PrefabInstance: {fileID: 3113582726696116334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &478645776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478645775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fadf230d1919748a9aa21d40f74619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_IgnoreTrackingState: 0
+  m_PositionInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Position
+      m_Type: 0
+      m_ExpectedControlType: Vector3
+      m_Id: c7f74fe2-5a52-4a4f-b393-4180e50496e4
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 9126875591944302883, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+  m_RotationInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Rotation
+      m_Type: 0
+      m_ExpectedControlType: Quaternion
+      m_Id: def2fc90-d3c7-4de0-8cd3-abda46d1788d
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -3870559572202308136, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+  m_TrackingStateInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Tracking State
+      m_Type: 0
+      m_ExpectedControlType: Integer
+      m_Id: 6611add9-5604-461d-9c6f-f725ea8b2be7
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1277054153949319361, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+  m_PositionAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 77eee8d4-4dc6-4432-ba29-dc55bd4ebe8b
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  m_RotationAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 7ec4ecd7-eab6-483a-b18d-46dd44d0defa
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!1 &486759599
 GameObject:
   m_ObjectHideFlags: 0
@@ -4736,6 +4591,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522548467}
   m_CullTransparentMesh: 1
+--- !u!1 &523580898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 523580899}
+  - component: {fileID: 523580900}
+  m_Layer: 0
+  m_Name: Direct Stabilized Attach
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &523580899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523580898}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1576233782}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &523580900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523580898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d299502104b064388841ec2adf6def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 1576233782}
+  m_AimTargetObject: {fileID: 0}
+  m_UseLocalSpace: 1
+  m_AngleStabilization: 20
+  m_PositionStabilization: 0.25
 --- !u!1001 &528661645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6322,9 +6226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd98d7bd8401e70468231d4e719480a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poseName: Peace
-  pose: {fileID: 707916912}
-  poseResult: {fileID: 1596144204}
 --- !u!114 &707916911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6337,101 +6238,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af7d33e93857407bbd7d0bd37fc99dda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 11400000, guid: 68a70f4bf49f8704989506f101d018bb, type: 2}
-  thumb:
-    handFinger: 0
-    flexion: 2
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 120
-        width: 10
-      curlConfigs:
-        min: 45
-        max: 90
-        width: 20
-      abductionConfigs:
-        mid: 13
-        width: 6
-  index:
-    handFinger: 1
-    flexion: 1
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 144
-        max: 180
-        width: 10
-      curlConfigs:
-        min: 107
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  middle:
-    handFinger: 2
-    flexion: 1
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 144
-        max: 180
-        width: 10
-      curlConfigs:
-        min: 107
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  ring:
-    handFinger: 3
-    flexion: 0
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  pinky:
-    handFinger: 4
-    flexion: 0
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  shapesholdDuration: 0.09
-  Bones: []
-  bonesHoldDuration: 0.022
-  trackAxis: 0
-  spaceType: 0
-  trackTarget: 2
-  angleThreshold: 35
-  thresholdWidth: 10
-  transHoldDuration: 0.022
 --- !u!114 &707916912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6444,17 +6250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35bed5e2884b6cb4a8f47d89e0bc7401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackType: 2
-  config: {fileID: 11400000, guid: 68a70f4bf49f8704989506f101d018bb, type: 2}
-  handPoseStart:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseUpdate:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseEnd:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &726146553
 GameObject:
   m_ObjectHideFlags: 0
@@ -7047,6 +6842,120 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770656302}
   m_CullTransparentMesh: 0
+--- !u!1 &773767093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 773767094}
+  - component: {fileID: 773767097}
+  - component: {fileID: 773767096}
+  - component: {fileID: 773767095}
+  m_Layer: 0
+  m_Name: Pinch Point Stabilized
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &773767094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773767093}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1576068720}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &773767095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773767093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e989a75b2954bdab01ca618a30d5de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Interactor: {fileID: 0}
+  m_ObjectToHide: {fileID: 0}
+--- !u!114 &773767096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773767093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e0a5b5ff5540f5b14dd29d46faec22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransitionDuration: 0.125
+  m_InteractableSource: {fileID: 0}
+  m_IgnoreHoverEvents: 0
+  m_IgnoreHoverPriorityEvents: 1
+  m_IgnoreFocusEvents: 1
+  m_IgnoreSelectEvents: 0
+  m_IgnoreActivateEvents: 0
+  m_SelectClickAnimationMode: 1
+  m_ActivateClickAnimationMode: 0
+  m_ClickAnimationDuration: 0.25
+  m_ClickAnimationCurve:
+    m_UseConstant: 1
+    m_ConstantValue:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_Variable: {fileID: 0}
+--- !u!114 &773767097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773767093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8693657abb5062a40a80ba3cb86ef181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_XRHandTrackingEvents: {fileID: 0}
+  m_RayInteractor: {fileID: 0}
+  m_NearFarInteractor: {fileID: 0}
+  m_TargetRotation: {fileID: 0}
+  m_RotationSmoothingSpeed: 12
 --- !u!1 &791681417
 GameObject:
   m_ObjectHideFlags: 0
@@ -9482,6 +9391,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064300971}
   m_CullTransparentMesh: 0
+--- !u!1 &1071927142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1071927143}
+  - component: {fileID: 1071927144}
+  m_Layer: 0
+  m_Name: Poke Stabilized Attach
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1071927143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071927142}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1576233782}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1071927144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071927142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d299502104b064388841ec2adf6def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 1576233782}
+  m_AimTargetObject: {fileID: 0}
+  m_UseLocalSpace: 1
+  m_AngleStabilization: 20
+  m_PositionStabilization: 0.25
 --- !u!1 &1074997377
 GameObject:
   m_ObjectHideFlags: 0
@@ -9704,6 +9662,55 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &1101580536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1101580537}
+  - component: {fileID: 1101580538}
+  m_Layer: 0
+  m_Name: Poke Stabilized Attach
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1101580537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101580536}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1576068720}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1101580538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101580536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d299502104b064388841ec2adf6def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 1576068720}
+  m_AimTargetObject: {fileID: 0}
+  m_UseLocalSpace: 1
+  m_AngleStabilization: 20
+  m_PositionStabilization: 0.25
 --- !u!1 &1106546165
 GameObject:
   m_ObjectHideFlags: 0
@@ -11757,10 +11764,41 @@ MonoBehaviour:
   qualityManager:
     _vSyncCount: 1
     _fixedFoveatedRenderingLevel: 0
+    _fixedFoveatedRenderingDynamic: 0
+    _sharpenType: 0
+    _enableDynamicResolution: 0
+    _minDynamicResolutionScale: 1
+    _maxDynamicResolutionScale: 1
+    _powerSetting: 1
     useRecommendedMSAALevel: 1
   trackingManager:
     _trackingSpace: 0
   handTrackingSupport: 1
+  spatialAnchorSupport: 0
+  sceneSupport: 0
+  eyeTrackingSupport: 0
+  largeSpaceSupport: 0
+--- !u!114 &1401539704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401539700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9813c68d7d6f44282ace8bd2d1fd46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UseOptimizedControls: 0
+  m_LeftHandMesh: {fileID: 1576068715}
+  m_RightHandMesh: {fileID: 1576233777}
+  m_HandMeshMaterial: {fileID: 0}
+  m_DrawMeshes: 0
+  m_DebugDrawPrefab: {fileID: 0}
+  m_DebugDrawJoints: 0
+  m_VelocityPrefab: {fileID: 0}
+  m_VelocityType: 0
 --- !u!1 &1410538796
 GameObject:
   m_ObjectHideFlags: 0
@@ -12302,7 +12340,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 266185978428555856, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
   m_PrefabInstance: {fileID: 3113582726696116334}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1534741528
+--- !u!114 &1534741526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12311,45 +12349,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1534741525}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7574b7341d2291a4187be73ae0928923, type: 3}
+  m_Script: {fileID: 11500000, guid: 82bc72d2ecc8add47b2fe00d40318500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftHandInteraction: {fileID: 1576068715}
-  rightHandInteraction: {fileID: 1576233777}
-  leftHandAction:
-    m_Name: Left Hand
-    m_Type: 0
-    m_ExpectedControlType: Integer
-    m_Id: a0800424-0e91-4c59-9d6a-0cfcc1e4b5d6
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 15cecb8e-56c3-4a22-854b-f312060393a8
-      m_Path: <YVRHandDevice>{LeftHand}/trackingState
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Left Hand
-      m_Flags: 0
-    m_Flags: 0
-  rightHandAction:
-    m_Name: Right Hand
-    m_Type: 0
-    m_ExpectedControlType: Integer
-    m_Id: 2d7a086b-a640-4681-9ebc-9c75d471dadc
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 53f742e5-bdb0-4692-91b5-a61042587818
-      m_Path: <YVRHandDevice>{RightHand}/trackingState
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Right Hand
-      m_Flags: 0
-    m_Flags: 0
+  m_LeftHand: {fileID: 1576068715}
+  m_RightHand: {fileID: 1576233777}
+  m_LeftController: {fileID: 3113582726696116339}
+  m_RightController: {fileID: 3113582726696116338}
+  m_TrackedHandModeStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  m_TrackedHandModeEnded:
+    m_PersistentCalls:
+      m_Calls: []
+  m_MotionControllerModeStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  m_MotionControllerModeEnded:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1542318347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12679,9 +12697,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3113582726685623846, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
   m_PrefabInstance: {fileID: 3113582726696116334}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1576068720 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3113582726685623847, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+  m_PrefabInstance: {fileID: 3113582726696116334}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1576233777 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3113582725626138475, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+  m_PrefabInstance: {fileID: 3113582726696116334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1576233782 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3113582725626138472, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
   m_PrefabInstance: {fileID: 3113582726696116334}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1576716363
@@ -13609,101 +13637,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af7d33e93857407bbd7d0bd37fc99dda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 11400000, guid: df25bcfc20eb0d640a0914f6d8a389c1, type: 2}
-  thumb:
-    handFinger: 0
-    flexion: 2
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 120
-        width: 10
-      curlConfigs:
-        min: 45
-        max: 90
-        width: 41
-      abductionConfigs:
-        mid: 13
-        width: 6
-  index:
-    handFinger: 1
-    flexion: 0
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 60
-      abductionConfigs:
-        mid: 10
-        width: 6
-  middle:
-    handFinger: 2
-    flexion: 1
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 144
-        max: 180
-        width: 10
-      curlConfigs:
-        min: 57.62305
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  ring:
-    handFinger: 3
-    flexion: 1
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 144
-        max: 180
-        width: 10
-      curlConfigs:
-        min: 107
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  pinky:
-    handFinger: 4
-    flexion: 1
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 144
-        max: 180
-        width: 10
-      curlConfigs:
-        min: 65.30612
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  shapesholdDuration: 0.09
-  Bones: []
-  bonesHoldDuration: 0.022
-  trackAxis: 0
-  spaceType: 3
-  trackTarget: 2
-  angleThreshold: 50
-  thresholdWidth: 10
-  transHoldDuration: 0.022
 --- !u!114 &1667439889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13716,17 +13649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35bed5e2884b6cb4a8f47d89e0bc7401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackType: 2
-  config: {fileID: 11400000, guid: df25bcfc20eb0d640a0914f6d8a389c1, type: 2}
-  handPoseStart:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseUpdate:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseEnd:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1667439890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13739,9 +13661,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd98d7bd8401e70468231d4e719480a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poseName: Okey
-  pose: {fileID: 1667439889}
-  poseResult: {fileID: 1596144204}
 --- !u!1 &1671726077
 GameObject:
   m_ObjectHideFlags: 0
@@ -14562,6 +14481,120 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797364436}
   m_CullTransparentMesh: 0
+--- !u!1 &1807778597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1807778598}
+  - component: {fileID: 1807778601}
+  - component: {fileID: 1807778600}
+  - component: {fileID: 1807778599}
+  m_Layer: 0
+  m_Name: Pinch Point Stabilized
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1807778598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807778597}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1576233782}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1807778599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807778597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e989a75b2954bdab01ca618a30d5de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Interactor: {fileID: 0}
+  m_ObjectToHide: {fileID: 0}
+--- !u!114 &1807778600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807778597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e0a5b5ff5540f5b14dd29d46faec22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransitionDuration: 0.125
+  m_InteractableSource: {fileID: 0}
+  m_IgnoreHoverEvents: 0
+  m_IgnoreHoverPriorityEvents: 1
+  m_IgnoreFocusEvents: 1
+  m_IgnoreSelectEvents: 0
+  m_IgnoreActivateEvents: 0
+  m_SelectClickAnimationMode: 1
+  m_ActivateClickAnimationMode: 0
+  m_ClickAnimationDuration: 0.25
+  m_ClickAnimationCurve:
+    m_UseConstant: 1
+    m_ConstantValue:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_Variable: {fileID: 0}
+--- !u!114 &1807778601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807778597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8693657abb5062a40a80ba3cb86ef181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_XRHandTrackingEvents: {fileID: 0}
+  m_RayInteractor: {fileID: 0}
+  m_NearFarInteractor: {fileID: 0}
+  m_TargetRotation: {fileID: 0}
+  m_RotationSmoothingSpeed: 12
 --- !u!1 &1810386330
 GameObject:
   m_ObjectHideFlags: 0
@@ -14637,6 +14670,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810386330}
   m_CullTransparentMesh: 0
+--- !u!1 &1836729544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5873159439379875753, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+  m_PrefabInstance: {fileID: 3113582726696116334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1836729545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836729544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fadf230d1919748a9aa21d40f74619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_IgnoreTrackingState: 0
+  m_PositionInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Position
+      m_Type: 0
+      m_ExpectedControlType: Vector3
+      m_Id: 74e0ae1f-bd28-46b9-83cd-39bb208331d2
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -2496076053284925795, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+  m_RotationInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Rotation
+      m_Type: 0
+      m_ExpectedControlType: Quaternion
+      m_Id: 582cf7e6-d275-40f4-b807-c0a919cb0674
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7149951272733842039, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+  m_TrackingStateInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Tracking State
+      m_Type: 0
+      m_ExpectedControlType: Integer
+      m_Id: f9d43caf-bef9-43f9-8a35-1815177dfc88
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 684395432459739428, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+  m_PositionAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 653a9cbe-840e-4131-8b8a-f8e965298610
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  m_RotationAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 12a47c5d-21e1-427d-a02c-e50ba8057fe8
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!1001 &1885174332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14941,101 +15048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af7d33e93857407bbd7d0bd37fc99dda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 11400000, guid: d9e2bc3ebc82cea4d935ee4549835571, type: 2}
-  thumb:
-    handFinger: 0
-    flexion: 1
-    curl: 1
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 135
-        max: 180
-        width: 24.1
-      curlConfigs:
-        min: 90
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 13
-        width: 6
-  index:
-    handFinger: 1
-    flexion: 1
-    curl: 1
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 144
-        max: 180
-        width: 10
-      curlConfigs:
-        min: 107
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  middle:
-    handFinger: 2
-    flexion: 2
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  ring:
-    handFinger: 3
-    flexion: 2
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  pinky:
-    handFinger: 4
-    flexion: 1
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 144
-        max: 180
-        width: 15
-      curlConfigs:
-        min: 0
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  shapesholdDuration: 0.09
-  Bones: []
-  bonesHoldDuration: 0.022
-  trackAxis: 0
-  spaceType: 0
-  trackTarget: 2
-  angleThreshold: 50
-  thresholdWidth: 0
-  transHoldDuration: 0.022
 --- !u!114 &1890451348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15048,17 +15060,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35bed5e2884b6cb4a8f47d89e0bc7401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackType: 2
-  config: {fileID: 11400000, guid: d9e2bc3ebc82cea4d935ee4549835571, type: 2}
-  handPoseStart:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseUpdate:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseEnd:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1890451349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15071,9 +15072,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd98d7bd8401e70468231d4e719480a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poseName: Love
-  pose: {fileID: 1890451348}
-  poseResult: {fileID: 1596144204}
 --- !u!1 &1895556601
 GameObject:
   m_ObjectHideFlags: 0
@@ -15467,9 +15465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd98d7bd8401e70468231d4e719480a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poseName: Fist
-  pose: {fileID: 1938216340}
-  poseResult: {fileID: 1596144204}
 --- !u!114 &1938216339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15482,101 +15477,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af7d33e93857407bbd7d0bd37fc99dda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 11400000, guid: 715fa2aaade2c3340a51b950259ebc9e, type: 2}
-  thumb:
-    handFinger: 0
-    flexion: 2
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 120
-        width: 10
-      curlConfigs:
-        min: 45
-        max: 90
-        width: 20
-      abductionConfigs:
-        mid: 13
-        width: 6
-  index:
-    handFinger: 1
-    flexion: 2
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  middle:
-    handFinger: 2
-    flexion: 2
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  ring:
-    handFinger: 3
-    flexion: 2
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  pinky:
-    handFinger: 4
-    flexion: 2
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  shapesholdDuration: 0.09
-  Bones: []
-  bonesHoldDuration: 0.022
-  trackAxis: 0
-  spaceType: 0
-  trackTarget: 2
-  angleThreshold: 50
-  thresholdWidth: 10
-  transHoldDuration: 0.022
 --- !u!114 &1938216340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15589,17 +15489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35bed5e2884b6cb4a8f47d89e0bc7401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackType: 2
-  config: {fileID: 11400000, guid: 715fa2aaade2c3340a51b950259ebc9e, type: 2}
-  handPoseStart:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseUpdate:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseEnd:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1943824116
 GameObject:
   m_ObjectHideFlags: 0
@@ -16129,6 +16018,55 @@ RectTransform:
   m_AnchoredPosition: {x: 347, y: 193.32}
   m_SizeDelta: {x: 277.3, y: 386.65}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1996783370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996783371}
+  - component: {fileID: 1996783372}
+  m_Layer: 0
+  m_Name: Direct Stabilized Attach
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1996783371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996783370}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1576068720}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1996783372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996783370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d299502104b064388841ec2adf6def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 1576068720}
+  m_AimTargetObject: {fileID: 0}
+  m_UseLocalSpace: 1
+  m_AngleStabilization: 20
+  m_PositionStabilization: 0.25
 --- !u!1 &1997941223
 GameObject:
   m_ObjectHideFlags: 0
@@ -17121,101 +17059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af7d33e93857407bbd7d0bd37fc99dda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 11400000, guid: 415ef87e0a8796e4d8025ede1a8d8205, type: 2}
-  thumb:
-    handFinger: 0
-    flexion: 1
-    curl: 0
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 135
-        max: 180
-        width: 20
-      curlConfigs:
-        min: 45
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 13
-        width: 90
-  index:
-    handFinger: 1
-    flexion: 1
-    curl: 1
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 144
-        max: 180
-        width: 10
-      curlConfigs:
-        min: 107
-        max: 180
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  middle:
-    handFinger: 2
-    flexion: 2
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  ring:
-    handFinger: 3
-    flexion: 2
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  pinky:
-    handFinger: 4
-    flexion: 2
-    curl: 2
-    abduction: 0
-    fingerConfigs:
-      flexionConfigs:
-        min: 90
-        max: 126
-        width: 10
-      curlConfigs:
-        min: 0
-        max: 73
-        width: 20
-      abductionConfigs:
-        mid: 10
-        width: 6
-  shapesholdDuration: 0.09
-  Bones: []
-  bonesHoldDuration: 0.022
-  trackAxis: 2
-  spaceType: 0
-  trackTarget: 2
-  angleThreshold: 35
-  thresholdWidth: 10
-  transHoldDuration: 0.022
 --- !u!114 &2098505016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17228,17 +17071,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35bed5e2884b6cb4a8f47d89e0bc7401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackType: 2
-  config: {fileID: 11400000, guid: 415ef87e0a8796e4d8025ede1a8d8205, type: 2}
-  handPoseStart:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseUpdate:
-    m_PersistentCalls:
-      m_Calls: []
-  handPoseEnd:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &2098505017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17251,9 +17083,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd98d7bd8401e70468231d4e719480a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poseName: GunPose
-  pose: {fileID: 2098505016}
-  poseResult: {fileID: 1596144204}
 --- !u!1 &2102636800
 GameObject:
   m_ObjectHideFlags: 0
@@ -18281,9 +18110,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
@@ -18342,33 +18168,6 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 1
@@ -18390,6 +18189,10 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
+  m_TrackScale: 1
+  m_SmoothScale: 0
+  m_SmoothScaleAmount: 8
+  m_TightenScale: 0.1
   m_ThrowOnDetach: 1
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
@@ -18411,10 +18214,10 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
-  m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+  m_FarAttachMode: 0
 --- !u!54 &2133737296446081570
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18477,9 +18280,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
@@ -18538,33 +18338,6 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 1
@@ -18586,6 +18359,10 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
+  m_TrackScale: 1
+  m_SmoothScale: 0
+  m_SmoothScaleAmount: 8
+  m_TightenScale: 0.1
   m_ThrowOnDetach: 1
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
@@ -18607,10 +18384,10 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
-  m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+  m_FarAttachMode: 0
 --- !u!54 &2133737296501965562
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18673,9 +18450,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
@@ -18734,33 +18508,6 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 1
@@ -18782,6 +18529,10 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
+  m_TrackScale: 1
+  m_SmoothScale: 0
+  m_SmoothScaleAmount: 8
+  m_TightenScale: 0.1
   m_ThrowOnDetach: 1
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
@@ -18803,10 +18554,10 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
-  m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+  m_FarAttachMode: 0
 --- !u!54 &2133737297696644230
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18930,6 +18681,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 115917841387327433, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 115917841387327433, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_ModelParent
       value: 
@@ -19092,11 +18847,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 305436337226433489, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_CameraYOffset
-      value: 0
+      value: 1.36144
       objectReference: {fileID: 0}
     - target: {fileID: 305436337226433489, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_RequestedTrackingOriginMode
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 346507073602236642, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_IsActive
@@ -19112,6 +18867,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1470082431402870574, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953446249208261384, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1953446249208261384, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
@@ -19182,6 +18941,10 @@ PrefabInstance:
       propertyPath: m_DirectionalAnchorRotationAction.m_Reference
       value: 
       objectReference: {fileID: -440298646266941818, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+    - target: {fileID: 3076661856455975825, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3076661856455975825, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_ModelParent
       value: 
@@ -19502,6 +19265,10 @@ PrefabInstance:
       propertyPath: m_StartingInteractionOverridesMap.Array.data[0].overrideGroupMembers.Array.data[0]
       value: 
       objectReference: {fileID: 2074672148}
+    - target: {fileID: 4142239706221201772, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4142239706221201772, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_SelectAction.m_Reference
       value: 
@@ -19923,21 +19690,35 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 7497717355300588828, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+    - {fileID: 0}
     - {fileID: 3113582726751902587, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
-    - {fileID: 3113582726685623842, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
-    - {fileID: 4620037060972336278, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
-    - {fileID: 3113582725626138471, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
-    - {fileID: 5623304865445573632, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3113582726751902586, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       insertIndex: -1
       addedObject: {fileID: 625071685}
+    - targetCorrespondingSourceObject: {fileID: 3113582726685623847, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1996783371}
+    - targetCorrespondingSourceObject: {fileID: 3113582726685623847, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1101580537}
+    - targetCorrespondingSourceObject: {fileID: 3113582726685623847, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 773767094}
+    - targetCorrespondingSourceObject: {fileID: 3113582725626138472, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1071927143}
+    - targetCorrespondingSourceObject: {fileID: 3113582725626138472, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 523580899}
+    - targetCorrespondingSourceObject: {fileID: 3113582725626138472, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1807778598}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 266185978428555856, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1534741528}
+      addedObject: {fileID: 1534741526}
     - targetCorrespondingSourceObject: {fileID: 1470082431350528780, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3113582726696116337}
@@ -19947,6 +19728,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3113582726751902589, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1401539703}
+    - targetCorrespondingSourceObject: {fileID: 3113582726751902589, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1401539704}
+    - targetCorrespondingSourceObject: {fileID: 5873159439379875753, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1836729545}
+    - targetCorrespondingSourceObject: {fileID: 5873159440087337584, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 478645776}
+    - targetCorrespondingSourceObject: {fileID: 8013813974128427463, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3113582726696116340}
+    - targetCorrespondingSourceObject: {fileID: 346507073602236642, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3113582726696116341}
   m_SourcePrefab: {fileID: 100100000, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
 --- !u!20 &3113582726696116335 stripped
 Camera:
@@ -19996,12 +19792,160 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!1 &3113582726696116338 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 346507073602236642, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+  m_PrefabInstance: {fileID: 3113582726696116334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3113582726696116339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8013813974128427463, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+  m_PrefabInstance: {fileID: 3113582726696116334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3113582726696116340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3113582726696116339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fadf230d1919748a9aa21d40f74619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_IgnoreTrackingState: 0
+  m_PositionInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Position
+      m_Type: 0
+      m_ExpectedControlType: Vector3
+      m_Id: 4e874686-433f-4a55-8aea-ac6d0a5daec3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -2024308242397127297, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+  m_RotationInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Rotation
+      m_Type: 0
+      m_ExpectedControlType: Quaternion
+      m_Id: 501c485e-e023-4fd0-b74b-f68cc55c3b7a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 8248158260566104461, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+  m_TrackingStateInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Tracking State
+      m_Type: 0
+      m_ExpectedControlType: Integer
+      m_Id: d4a1451c-fb15-4def-87af-6a8004801d3c
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 684395432459739428, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+  m_PositionAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 320a7e94-cb4f-4538-8df3-cae7de2bec75
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  m_RotationAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: be04feaa-c22a-4375-8d4c-e887044837cb
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+--- !u!114 &3113582726696116341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3113582726696116338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fadf230d1919748a9aa21d40f74619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_IgnoreTrackingState: 0
+  m_PositionInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Position
+      m_Type: 0
+      m_ExpectedControlType: Vector3
+      m_Id: 75bf8359-24cb-465c-a00a-dd0d6c7a3200
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -3326005586356538449, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+  m_RotationInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Rotation
+      m_Type: 0
+      m_ExpectedControlType: Quaternion
+      m_Id: a78f54c3-a721-47aa-bce6-20ac516e942a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 5101698808175986029, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+  m_TrackingStateInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Tracking State
+      m_Type: 0
+      m_ExpectedControlType: Integer
+      m_Id: 2cec748e-9ee8-41c5-8f1c-5e2b35e8ca83
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1277054153949319361, guid: d2c5aee377dd9604f8fbf213e58e26df, type: 3}
+  m_PositionAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 2aa5eb0b-641e-4d9e-9cb1-e26aff8e3aef
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  m_RotationAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 7130f9f6-62f4-4945-8c02-0898d0321db1
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!4 &3154726581514219159
 Transform:
   m_ObjectHideFlags: 0
@@ -20543,9 +20487,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
@@ -20604,33 +20545,6 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!54 &8296172668117256307
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20694,9 +20608,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
@@ -20755,33 +20666,6 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 1
@@ -20803,6 +20687,10 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
+  m_TrackScale: 1
+  m_SmoothScale: 0
+  m_SmoothScaleAmount: 8
+  m_TightenScale: 0.1
   m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
@@ -20824,10 +20712,10 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
-  m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+  m_FarAttachMode: 0
 --- !u!54 &8296172668129802090
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20870,7 +20758,9 @@ MonoBehaviour:
   m_PermittedDisplacementAxes: 7
   m_ConstrainedAxisDisplacementMode: 1
   m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
   m_AllowTwoHandedScaling: 1
+  m_OneHandedScaleSpeed: 0.5
   m_ThresholdMoveRatioForScale: 0.1
   m_ClampScaling: 1
   m_MinimumScaleRatio: 0.25
@@ -20912,9 +20802,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
@@ -20973,33 +20860,6 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 1
@@ -21021,6 +20881,10 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
+  m_TrackScale: 1
+  m_SmoothScale: 0
+  m_SmoothScaleAmount: 8
+  m_TightenScale: 0.1
   m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
@@ -21042,10 +20906,10 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
-  m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+  m_FarAttachMode: 0
 --- !u!54 &8296172668188477148
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21088,7 +20952,9 @@ MonoBehaviour:
   m_PermittedDisplacementAxes: 7
   m_ConstrainedAxisDisplacementMode: 1
   m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
   m_AllowTwoHandedScaling: 1
+  m_OneHandedScaleSpeed: 0.5
   m_ThresholdMoveRatioForScale: 0.1
   m_ClampScaling: 1
   m_MinimumScaleRatio: 0.25
@@ -21129,9 +20995,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
@@ -21190,33 +21053,6 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!54 &8296172668209391654
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using YVR.Interaction;
 
 public class HandPoseTest : MonoBehaviour
 {
-    public string poseName;
+    /*public string poseName;
     public YVRHandPose pose;
 
     public Text poseResult;
@@ -40,5 +40,5 @@ public class HandPoseTest : MonoBehaviour
         {
             poseResult.text = "";
         }
-    }
+    }*/
 }
